@@ -4,6 +4,13 @@
 */
 function mostrar()
 {
+	var nombre;
+
+	nombre = prompt("ingrese un nombre");
+
+	//se tomo el dato por prompt y se dio vuelta la caja de texto por la variable
+
+	document.getElementById("elNombre").value = nombre; 
 
 }
 
