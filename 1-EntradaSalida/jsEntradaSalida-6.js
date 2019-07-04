@@ -1,16 +1,21 @@
 /*Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
-function sumar(num1,num2)
+function sumar()
 {
     var num1;
 
     var num2;
 
-    num1 = parseInt.getElementById("numeroUno").value;
+    var resultado;
 
-    num2 = parseInt.getElementById("numeroDos").value;
+    //parseInt trabaha por encima de la caja de texto
+
+    num1 = parseInt( document.getElementById("numeroUno").value );
+
+    num2 = parseInt( document.getElementById("numeroDos").value );
+
+    resultado = (num1+num2);
     
-
-    alert();
+    alert("la suma es " + resultado);
 }
